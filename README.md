@@ -26,7 +26,7 @@
 |   系统   | iOS 11.0.3 |
 | 网易新闻 |    35.1    |
 
-最终Hook代码：[lanvsblueNewsHooker](https://github.com/lanvsblue/NewsHooker)
+最终Hook代码：[lanvsblue/NewsHooker](https://github.com/lanvsblue/NewsHooker)
 
 由于IPA文件比较大，所以在这里不上传IPA文件，请自行砸壳或从各大助手下载。
 
