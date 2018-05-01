@@ -1,4 +1,5 @@
 从我的博客转载[www.0xlan.cn](https://www.lanvsblue.top/2018/04/29/NeteaseNews-hook-in-noJailbreak/)
+
 ## 简介
 
 本文的目标是在非越狱环境下，去除网易新闻列表中的广告：
@@ -17,6 +18,17 @@
 本次逆向分析过程：
 
 前期准备（砸壳、class-dump）-> 抓包分析 -> UI分析 -> 确定目标方法 -> Hook
+
+逆向环境：
+
+|          |   版本号   |
+| :------: | :--------: |
+|   系统   | iOS 11.0.3 |
+| 网易新闻 |    35.1    |
+
+最终Hook代码：[lanvsblueNewsHooker](https://github.com/lanvsblue/NewsHooker)
+
+由于IPA文件比较大，所以在这里不上传IPA文件，请自行砸壳或从各大助手下载。
 
 ## 砸壳
 
