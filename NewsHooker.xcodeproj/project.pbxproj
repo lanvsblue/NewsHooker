@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F330B6B209197F400DBE9F6 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F330B6A209197F400DBE9F6 /* MDConfig.plist */; };
+		3F330B75209197F400DBE9F6 /* libNewsHookerDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F330B74209197F400DBE9F6 /* libNewsHookerDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3F330B7A209197F400DBE9F6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F330B79209197F400DBE9F6 /* JavaScriptCore.framework */; };
+		3F330B7C209197F400DBE9F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F330B7B209197F400DBE9F6 /* Foundation.framework */; };
+		3F330B7E209197F400DBE9F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F330B7D209197F400DBE9F6 /* UIKit.framework */; };
+		3F330B83209197F400DBE9F6 /* NewsHookerDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F330B82209197F400DBE9F6 /* NewsHookerDylib.mm */; };
+		3F330B86209197F400DBE9F6 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F330B85209197F400DBE9F6 /* MDConfigManager.h */; };
+		3F330B88209197F400DBE9F6 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F330B87209197F400DBE9F6 /* MDConfigManager.m */; };
+		3F330B8A209197F400DBE9F6 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F330B89209197F400DBE9F6 /* MDCycriptManager.h */; };
+		3F330B8C209197F400DBE9F6 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F330B8B209197F400DBE9F6 /* MDCycriptManager.m */; };
+		3F330B8E209197F400DBE9F6 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F330B8D209197F400DBE9F6 /* MDMethodTrace.h */; };
+		3F330B90209197F400DBE9F6 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F330B8F209197F400DBE9F6 /* MDMethodTrace.m */; };
+		3F330B92209197F400DBE9F6 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F330B91209197F400DBE9F6 /* ANYMethodLog.h */; };
+		3F330B94209197F400DBE9F6 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F330B93209197F400DBE9F6 /* ANYMethodLog.m */; };
+		3F330B97209197F400DBE9F6 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F330B96209197F400DBE9F6 /* LLDBTools.h */; };
+		3F330B99209197F400DBE9F6 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F330B98209197F400DBE9F6 /* LLDBTools.mm */; };
+		3F330B9E209197F400DBE9F6 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F330B9D209197F400DBE9F6 /* AntiAntiDebug.m */; };
+		3F330BA1209197F400DBE9F6 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F330BA0209197F400DBE9F6 /* fishhook.c */; };
+		3F330BA3209197F400DBE9F6 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F330BA2209197F400DBE9F6 /* fishhook.h */; };
+		3F330BA5209197F400DBE9F6 /* NewsHookerDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F330BA4209197F400DBE9F6 /* NewsHookerDylib.h */; };
+		3F330BA7209197F400DBE9F6 /* NewsHookerDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F330BA6209197F400DBE9F6 /* NewsHookerDylib.m */; };
+		3FEAC898209570C900415789 /* NewsHooker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FEAC896209570C900415789 /* NewsHooker.h */; };
+		3FEAC899209570C900415789 /* NewsHooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAC897209570C900415789 /* NewsHooker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F330B76209197F400DBE9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F330B57209197F300DBE9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F330B73209197F400DBE9F6;
+			remoteInfo = NewsHookerDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F330B5F209197F300DBE9F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F330B75209197F400DBE9F6 /* libNewsHookerDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F330B62209197F300DBE9F6 /* NewsHooker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsHooker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F330B65209197F400DBE9F6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3F330B66209197F400DBE9F6 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		3F330B68209197F400DBE9F6 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		3F330B6A209197F400DBE9F6 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		3F330B6D209197F400DBE9F6 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		3F330B6E209197F400DBE9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F330B74209197F400DBE9F6 /* libNewsHookerDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libNewsHookerDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F330B79209197F400DBE9F6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3F330B7B209197F400DBE9F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F330B7D209197F400DBE9F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F330B81209197F400DBE9F6 /* NewsHookerDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = NewsHookerDylib.xm; path = Logos/NewsHookerDylib.xm; sourceTree = "<group>"; };
+		3F330B82209197F400DBE9F6 /* NewsHookerDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NewsHookerDylib.mm; path = Logos/NewsHookerDylib.mm; sourceTree = "<group>"; };
+		3F330B85209197F400DBE9F6 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		3F330B87209197F400DBE9F6 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		3F330B89209197F400DBE9F6 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		3F330B8B209197F400DBE9F6 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		3F330B8D209197F400DBE9F6 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		3F330B8F209197F400DBE9F6 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		3F330B91209197F400DBE9F6 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		3F330B93209197F400DBE9F6 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		3F330B96209197F400DBE9F6 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		3F330B98209197F400DBE9F6 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		3F330B9B209197F400DBE9F6 /* NewsHookerDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsHookerDylib-Prefix.pch"; sourceTree = "<group>"; };
+		3F330B9D209197F400DBE9F6 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		3F330BA0209197F400DBE9F6 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		3F330BA2209197F400DBE9F6 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		3F330BA4209197F400DBE9F6 /* NewsHookerDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsHookerDylib.h; sourceTree = "<group>"; };
+		3F330BA6209197F400DBE9F6 /* NewsHookerDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsHookerDylib.m; sourceTree = "<group>"; };
+		3FEAC896209570C900415789 /* NewsHooker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsHooker.h; sourceTree = "<group>"; };
+		3FEAC897209570C900415789 /* NewsHooker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsHooker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F330B5C209197F300DBE9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F330B71209197F400DBE9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F330B7A209197F400DBE9F6 /* JavaScriptCore.framework in Frameworks */,
+				3F330B7E209197F400DBE9F6 /* UIKit.framework in Frameworks */,
+				3F330B7C209197F400DBE9F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F330B56209197F300DBE9F6 = {
+			isa = PBXGroup;
+			children = (
+				3F330B64209197F300DBE9F6 /* NewsHooker */,
+				3F330B7F209197F400DBE9F6 /* NewsHookerDylib */,
+				3F330B78209197F400DBE9F6 /* Frameworks */,
+				3F330B63209197F300DBE9F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F330B63209197F300DBE9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B62209197F300DBE9F6 /* NewsHooker.app */,
+				3F330B74209197F400DBE9F6 /* libNewsHookerDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F330B64209197F300DBE9F6 /* NewsHooker */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B65209197F400DBE9F6 /* icon.png */,
+				3F330B66209197F400DBE9F6 /* Target.plist */,
+				3F330B6E209197F400DBE9F6 /* Info.plist */,
+				3F330B67209197F400DBE9F6 /* Scripts */,
+				3F330B69209197F400DBE9F6 /* Config */,
+				3F330B6C209197F400DBE9F6 /* TargetApp */,
+			);
+			path = NewsHooker;
+			sourceTree = "<group>";
+		};
+		3F330B67209197F400DBE9F6 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B68209197F400DBE9F6 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		3F330B69209197F400DBE9F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B6A209197F400DBE9F6 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		3F330B6C209197F400DBE9F6 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B6D209197F400DBE9F6 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		3F330B78209197F400DBE9F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B79209197F400DBE9F6 /* JavaScriptCore.framework */,
+				3F330B7B209197F400DBE9F6 /* Foundation.framework */,
+				3F330B7D209197F400DBE9F6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F330B7F209197F400DBE9F6 /* NewsHookerDylib */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAC896209570C900415789 /* NewsHooker.h */,
+				3FEAC897209570C900415789 /* NewsHooker.m */,
+				3F330BA4209197F400DBE9F6 /* NewsHookerDylib.h */,
+				3F330BA6209197F400DBE9F6 /* NewsHookerDylib.m */,
+				3F330B80209197F400DBE9F6 /* Logos */,
+				3F330B84209197F400DBE9F6 /* Config */,
+				3F330B95209197F400DBE9F6 /* Tools */,
+				3F330B9C209197F400DBE9F6 /* AntiAntiDebug */,
+				3F330B9F209197F400DBE9F6 /* fishhook */,
+				3F330B9A209197F400DBE9F6 /* Supporting Files */,
+			);
+			path = NewsHookerDylib;
+			sourceTree = "<group>";
+		};
+		3F330B80209197F400DBE9F6 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B81209197F400DBE9F6 /* NewsHookerDylib.xm */,
+				3F330B82209197F400DBE9F6 /* NewsHookerDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		3F330B84209197F400DBE9F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B85209197F400DBE9F6 /* MDConfigManager.h */,
+				3F330B87209197F400DBE9F6 /* MDConfigManager.m */,
+				3F330B89209197F400DBE9F6 /* MDCycriptManager.h */,
+				3F330B8B209197F400DBE9F6 /* MDCycriptManager.m */,
+				3F330B8D209197F400DBE9F6 /* MDMethodTrace.h */,
+				3F330B8F209197F400DBE9F6 /* MDMethodTrace.m */,
+				3F330B91209197F400DBE9F6 /* ANYMethodLog.h */,
+				3F330B93209197F400DBE9F6 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		3F330B95209197F400DBE9F6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B96209197F400DBE9F6 /* LLDBTools.h */,
+				3F330B98209197F400DBE9F6 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		3F330B9A209197F400DBE9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B9B209197F400DBE9F6 /* NewsHookerDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F330B9C209197F400DBE9F6 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				3F330B9D209197F400DBE9F6 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		3F330B9F209197F400DBE9F6 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				3F330BA0209197F400DBE9F6 /* fishhook.c */,
+				3F330BA2209197F400DBE9F6 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F330B72209197F400DBE9F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F330BA5209197F400DBE9F6 /* NewsHookerDylib.h in Headers */,
+				3F330B8A209197F400DBE9F6 /* MDCycriptManager.h in Headers */,
+				3F330B8E209197F400DBE9F6 /* MDMethodTrace.h in Headers */,
+				3F330B97209197F400DBE9F6 /* LLDBTools.h in Headers */,
+				3F330B86209197F400DBE9F6 /* MDConfigManager.h in Headers */,
+				3F330B92209197F400DBE9F6 /* ANYMethodLog.h in Headers */,
+				3F330BA3209197F400DBE9F6 /* fishhook.h in Headers */,
+				3FEAC898209570C900415789 /* NewsHooker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F330B61209197F300DBE9F6 /* NewsHooker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F330BAD209197F400DBE9F6 /* Build configuration list for PBXNativeTarget "NewsHooker" */;
+			buildPhases = (
+				3F330B5B209197F300DBE9F6 /* Sources */,
+				3F330B5C209197F300DBE9F6 /* Frameworks */,
+				3F330B5D209197F300DBE9F6 /* ShellScript */,
+				3F330B5E209197F300DBE9F6 /* Resources */,
+				3F330B5F209197F300DBE9F6 /* CopyFiles */,
+				3F330B60209197F300DBE9F6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F330B77209197F400DBE9F6 /* PBXTargetDependency */,
+			);
+			name = NewsHooker;
+			productName = NewsHooker;
+			productReference = 3F330B62209197F300DBE9F6 /* NewsHooker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F330B73209197F400DBE9F6 /* NewsHookerDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F330BAA209197F400DBE9F6 /* Build configuration list for PBXNativeTarget "NewsHookerDylib" */;
+			buildPhases = (
+				3F330B6F209197F400DBE9F6 /* ShellScript */,
+				3F330B70209197F400DBE9F6 /* Sources */,
+				3F330B71209197F400DBE9F6 /* Frameworks */,
+				3F330B72209197F400DBE9F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsHookerDylib;
+			productName = NewsHookerDylib;
+			productReference = 3F330B74209197F400DBE9F6 /* libNewsHookerDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F330B57209197F300DBE9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "蓝布鲁";
+				TargetAttributes = {
+					3F330B61209197F300DBE9F6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F330B73209197F400DBE9F6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F330B5A209197F300DBE9F6 /* Build configuration list for PBXProject "NewsHooker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F330B56209197F300DBE9F6;
+			productRefGroup = 3F330B63209197F300DBE9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F330B61209197F300DBE9F6 /* NewsHooker */,
+				3F330B73209197F400DBE9F6 /* NewsHookerDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F330B5E209197F300DBE9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F330B6B209197F400DBE9F6 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F330B5D209197F300DBE9F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		3F330B60209197F300DBE9F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		3F330B6F209197F400DBE9F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F330B5B209197F300DBE9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F330B70209197F400DBE9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F330B8C209197F400DBE9F6 /* MDCycriptManager.m in Sources */,
+				3F330B94209197F400DBE9F6 /* ANYMethodLog.m in Sources */,
+				3F330B88209197F400DBE9F6 /* MDConfigManager.m in Sources */,
+				3F330B99209197F400DBE9F6 /* LLDBTools.mm in Sources */,
+				3F330B83209197F400DBE9F6 /* NewsHookerDylib.mm in Sources */,
+				3F330BA7209197F400DBE9F6 /* NewsHookerDylib.m in Sources */,
+				3F330B90209197F400DBE9F6 /* MDMethodTrace.m in Sources */,
+				3F330BA1209197F400DBE9F6 /* fishhook.c in Sources */,
+				3FEAC899209570C900415789 /* NewsHooker.m in Sources */,
+				3F330B9E209197F400DBE9F6 /* AntiAntiDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F330B77209197F400DBE9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F330B73209197F400DBE9F6 /* NewsHookerDylib */;
+			targetProxy = 3F330B76209197F400DBE9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F330BA8209197F400DBE9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F330BA9209197F400DBE9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F330BAB209197F400DBE9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MXJL78S842;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsHookerDylib/NewsHookerDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libNewsHookerDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"NewsHookerDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		3F330BAC209197F400DBE9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = MXJL78S842;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsHookerDylib/NewsHookerDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libNewsHookerDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"NewsHookerDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F330BAE209197F400DBE9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8F27NF7H;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NewsHooker/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanvsblue.NewsHooker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F330BAF209197F400DBE9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC8F27NF7H;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NewsHooker/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanvsblue.NewsHooker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F330B5A209197F300DBE9F6 /* Build configuration list for PBXProject "NewsHooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F330BA8209197F400DBE9F6 /* Debug */,
+				3F330BA9209197F400DBE9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F330BAA209197F400DBE9F6 /* Build configuration list for PBXNativeTarget "NewsHookerDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F330BAB209197F400DBE9F6 /* Debug */,
+				3F330BAC209197F400DBE9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F330BAD209197F400DBE9F6 /* Build configuration list for PBXNativeTarget "NewsHooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F330BAE209197F400DBE9F6 /* Debug */,
+				3F330BAF209197F400DBE9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F330B57209197F300DBE9F6 /* Project object */;
+}

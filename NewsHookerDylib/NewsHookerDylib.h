@@ -10,16 +10,8 @@
 
 #import <Foundation/Foundation.h>
 
-#define INSERT_SUCCESS_WELCOME @"\n               🎉!!！congratulations!!！🎉\n👍----------------insert dylib success----------------👍"
+@interface NTESNBNewsListController
 
-@interface CustomViewController
-
-@property (nonatomic, copy) NSString* newProperty;
-
-+ (void)classMethod;
-
-- (NSString*)getMyName;
-
-- (void)newMethod:(NSString*) output;
+- (void)didReceiveAdResponse:(id)arg1;
 
 @end
